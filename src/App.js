@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/birthday" element={<Birthday />} />
-          <Route path="/tours" element={<Tours />} /> */}
+          <Route path="/1" element={<Birthday />} />
+          {/* <Route path="/tours" element={<Tours />} /> */}
           <Route path="/4" element={<Accordion />} />
           <Route path="*" element={<Default />} />
         </Routes>
